@@ -1,0 +1,55 @@
+name: terratech
+description: "TerraTech - Tu jardín inteligente"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Backend
+  supabase_flutter: ^2.8.0
+
+  # Estado
+  flutter_riverpod: ^2.6.1
+
+  # Navegación
+  go_router: ^14.6.2
+
+  # UI / Fuentes
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.0
+  shimmer: ^3.0.0
+
+  # Imágenes
+  cached_network_image: ^3.4.1
+  flutter_svg: ^2.0.10+1
+
+  # Barras de progreso
+  percent_indicator: ^4.2.3
+
+  # Utilidades
+  intl: ^0.19.0
+  uuid: ^4.5.1
+
+  # Gráficos
+  fl_chart: ^0.69.2
+
+  # Notificaciones
+  flutter_local_notifications: ^18.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
